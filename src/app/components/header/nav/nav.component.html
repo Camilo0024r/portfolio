@@ -1,0 +1,39 @@
+<header class="container mx-auto my-auto lg:my-32 p-12">
+    <nav id="navbar" class="flex flex-row flex-nowrap ">
+        <div class="space-x-5 grow">
+            <i class="fa-brands fa-github text-4xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-100" data-aos="fade-right"  data-aos-duration="1500"></i>
+            <i class="fa-brands fa-linkedin text-4xl ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-100" data-aos="fade-right"  data-aos-duration="1000"></i>
+        </div>
+        <ul class="order-1 whitespace-nowrap text-xl hidden md:hidden lg:block">
+            <li class="ml-10 inline" data-aos="fade-left" data-aos-duration="1000"><a href="https://www.google.com/">About Me</a></li>
+            <li class="ml-10 inline" data-aos="fade-left" data-aos-duration="2000"><a href="https://www.google.com/">Experience</a></li>
+            <li class="ml-10 inline" data-aos="fade-left" data-aos-duration="3000"><a href="https://www.google.com/">Projects</a></li>
+            <li class="ml-10 inline" data-aos="fade-left" data-aos-duration="4000"><a href="https://www.google.com/">Contact</a></li>    
+        </ul>
+        <div class="responsive-navbar  sm:block md:block lg:hidden">
+            <label for="check" class="checkbtn" data-drawer-target="drawer-right-example" data-drawer-show="drawer-right-example" data-drawer-placement="right" aria-controls="drawer-right-example ">
+                <i class="fas fa-bars text-3xl"></i>
+            </label>
+        </div>
+        <div id="drawer-right-example" class="fixed top-0 right-0 z-40 h-screen p-4 overflow-y-auto transition-transform translate-x-full  w-80" tabindex="-1" aria-labelledby="drawer-right-label">
+            <button type="button" data-drawer-hide="drawer-right-example" aria-controls="drawer-right-example" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 absolute top-2.5 right-2.5 inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white" >
+                <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                <span class="sr-only">Close menu</span>
+            </button>
+                <ul class="flex flex-col place-items-center space-y-10 mt-5">
+                    <li class="ml-7 inline"><a href="https://www.google.com/">About Me</a></li>
+                    <li class="ml-7 inline"><a href="https://www.google.com/">Experience</a></li>
+                    <li class="ml-7 inline"><a href="https://www.google.com/">Projects</a></li>
+                    <li class="ml-7 inline"><a href="https://www.google.com/">Contact</a></li> 
+                </ul>
+        </div>
+    </nav>
+    <div class="flex flex-col mt-20 mb-10 p-20 justify-center lg:space-x-20 lg:flex-row">
+        <h1 class="mt-12 place-self-center text-center font-medium  order-2  lg:text-5xl text-3xl lg:order-1 lg:text-left"><i class="fa-regular fa-hand"></i> Hi, <strong  data-aos="fade-right"data-aos-duration="1500" class="text-special">I'm Duvan</strong>,<br>a software developer turned<br>web developer</h1>
+         <img class="w-56 place-self-center lg:w-1/4 md:w-70  md:order-1 sm:w-48 shadow-lg lg:order-2" data-aos="zoom-out-left" data-aos-duration="2000" src="assets/logo.png">
+    </div>
+    <a class="flex-row space-x-2 absolute bottom-0 right-4 lg:bottom-20 lg:right-8 lg:text-2xl">
+        <p class=" font-medium text-lg inline">Descargar CV</p>
+        <i class="fa-regular fa-circle-down animate-bounce"></i>
+    </a> 
+</header>
