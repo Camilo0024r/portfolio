@@ -8,6 +8,8 @@ import { ProjectsComponent } from './components/main/projects/projects.component
 import { ContactMeComponent } from './components/contact-me/contact-me.component';
 import { NavComponent } from './components/header/nav/nav.component';
 
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 //Añadir metadatos
 @NgModule({
   declarations:[
@@ -22,6 +24,7 @@ import { NavComponent } from './components/header/nav/nav.component';
   imports: [
     AppRoutingModule,
     BrowserModule,
+    FontAwesomeModule
   ],
   schemas:[
     //Este esquema permite la validación de componentes personalizados que se utilizan en el módulo.
