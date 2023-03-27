@@ -10,6 +10,8 @@ import { NavComponent } from './components/header/nav/nav.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
+
+
 //Añadir metadatos
 @NgModule({
   declarations:[
@@ -24,7 +26,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   imports: [
     AppRoutingModule,
     BrowserModule,
-    FontAwesomeModule
+    FontAwesomeModule,
   ],
   schemas:[
     //Este esquema permite la validación de componentes personalizados que se utilizan en el módulo.
